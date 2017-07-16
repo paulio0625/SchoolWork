@@ -1,2 +1,2 @@
 # SchoolWork
-Collection of my assignments and labs while at UNB
+Collection of assignments and labs from my time at UNB Fredericton
