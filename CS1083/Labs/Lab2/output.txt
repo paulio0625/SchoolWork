@@ -1,0 +1,24 @@
+Enter the total number of students>
+Enter student name, id, major, year, days since registration>
+Enter student name, id, major, year, days since registration>
+Enter student name, id, major, year, days since registration>
+Enter student name, id, major, year, days since registration>
+Enter student name, id, major, year, days since registration>
+Enter student name, id, major, year, days since registration>
+Enter student name, id, major, year, days since registration>
+Enter student name, id, major, year, days since registration>
+Enter student name, id, major, year, days since registration>
+Enter student name, id, major, year, days since registration>
+
+
+------Sorted Students------
+Alice	(3938420):	96
+Olivia	(4845462):	83
+Jill	(3994392):	38
+Jillian	(3256521):	38
+Harold	(2848492):	29
+Scott	(3030284):	26
+John	(3934814):	26
+Spencer	(3620590):	22
+Ben	(3918473):	17
+Jimmy	(3949384):	13
