@@ -1,0 +1,57 @@
+Please specify the amount of numbers that will be entered
+or enter a negative number to exit.
+4
+Please begin entering numbers
+1
+0
+2
+-1
+true
+Please specify the amount of numbers that will be entered
+or enter a negative number to exit.
+3
+Please begin entering numbers
+1
+-1
+1
+false
+Please specify the amount of numbers that will be entered
+or enter a negative number to exit.
+5
+Please begin entering numbers
+1
+2
+3
+2
+1
+false
+Please specify the amount of numbers that will be entered
+or enter a negative number to exit.
+4
+Please begin entering numbers
+1
+1
+2
+2
+false
+Please specify the amount of numbers that will be entered
+or enter a negative number to exit.
+3
+Please begin entering numbers
+10
+0
+10
+true
+Please specify the amount of numbers that will be entered
+or enter a negative number to exit.
+5
+Please begin entering numbers
+1
+1
+1
+1
+2
+true
+Please specify the amount of numbers that will be entered
+or enter a negative number to exit.
+-1

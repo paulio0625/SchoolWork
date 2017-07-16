@@ -1,0 +1,76 @@
+*** Test case #1: Create a Tenant object & test accessors
+Name:     Sally Smith
+Appt #:   152
+Phone:    454-1234
+Member #: 10000
+Correct result: Sally has zero lending items.
+
+*** Test case #2: Create a ShortTermTenant object & test accessors
+Name:     Tommy Black
+Appt #:   102
+Phone:    454-4321
+Member #: 10001
+Departs: Jan 13, 2015
+
+Correct result: Tommy has zero lending items.
+
+*** Test case #3: Automatically generate a member number
+Correct result: 10002 is the correct member number.
+
+*** Test case #4: Create a LendingItem object & test accessors
+Description: Ready Player One - Ernest Cline - BOOK
+Orig. Price: $20.00
+Collector's Copy:  true
+
+*** Test case #5: Change phone number for both Tenant types
+Correct result: Sally's phone number successfully changed.
+Correct result: Tommy's phone number successfully changed.
+
+*** Test case #6: Sign out one LendingItem
+Correct result: Sally signed out an item successfully.
+Correct result: Sally has one lending item.
+
+*** Test case #7: Sign out multiple LendingItems
+Correct result: Sally signed out two more items successfully.
+Correct result: Sally has three lending items.
+
+*** Test case #8: Intentionally exceed the sign out limit
+Correct result: Sally was prevented from signing out more than 7 lending items.
+
+*** Test case #9: A short-term tenant tries to sign out a Collector's Copy item
+Correct result: Tommy was prevented from signing out a Collector's Copy item.
+Correct result: Tommy was able to sign out a non Collector's Copy item.
+
+*** Test case #10: Returning the only item that was signed out
+Correct result: Tommy's item was successfully returned.
+Correct result: Tommy's list length changed appropriately.
+
+*** Test case #11: Returning an item that was not signed out
+Correct result: Unsuccessful attempt to return an item that was not signed out.
+
+*** Test case #12: Returning the first item that was signed out
+>> ERROR: Sally's first item was not successfully returned.
+>> ERROR: Sally's list length did not change appropriately.
+
+Confirm return: Ready Player One should be absent from the following list:
+Ready Player One - Ernest Cline - BOOK
+The Martian - Andy Weir - BOOK
+Old Man's War - John Scalzi - BOOK
+The Hunger Games - Suzanne Collins - BOOK
+Anathem - Neal Stephenson - BOOK
+Altered Carbon - BOOK
+Cloud Computing Journal 01/2015 - Magazine
+
+*** Test case #13: Returning a mid-list item
+Correct result: The Hunger Games was successfully returned.
+Correct result: Sally's list length changed appropriately.
+
+Confirm return: The Hunger Games should be absent from the following list:
+Ready Player One - Ernest Cline - BOOK
+The Martian - Andy Weir - BOOK
+Old Man's War - John Scalzi - BOOK
+Anathem - Neal Stephenson - BOOK
+Altered Carbon - BOOK
+Cloud Computing Journal 01/2015 - Magazine
+
+************* End of Test Cases ***************

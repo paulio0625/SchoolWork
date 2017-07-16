@@ -1,0 +1,44 @@
+510 Winsdor, E3B 5A3
+Testing creation and initial display of an Address object: PASS!
+
+From: 510 Winsdor, E3B 5A3
+To: 810 Montogomery, E3B 2Y1
+Cost: $1.00
+Testing creation and initial display of a Envelope object: PASS!
+
+Testing is-a relation: PASS!
+
+X104884AH1232
+From: 3800 Finnerty, V8P 5C2
+To: 676 Winsdor, E3B 4G4
+Not sent yet
+Cost: $10.20
+Testing creation and initial display of a TrackableEnvelope object: PASS!
+
+X104884AH1232
+From: 676 Winsdor, E3B 4G4
+To: 3800 Finnerty, V8P 5C2
+Not sent yet
+
+Testing address swap: PASS!
+
+Testing invalid status changes of a TrackableEnvelope object: PASS!
+
+X104884AH1232
+From: 676 Winsdor, E3B 4G4
+To: 3800 Finnerty, V8P 5C2
+Dispatched
+
+Testing sending, isSent and invalid delivery: PASS!
+X104884AH1232
+From: 676 Winsdor, E3B 4G4
+To: 3800 Finnerty, V8P 5C2
+At mailing hub
+
+Testing arriveAtHub and hasArrivedAtHub: PASS!
+X104884AH1232
+From: 676 Winsdor, E3B 4G4
+To: 3800 Finnerty, V8P 5C2
+Delivered
+
+Testing deliver and isDelivered: PASS!
