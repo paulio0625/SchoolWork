@@ -1,0 +1,3 @@
+item1: Inventory[name=Pancake Mix,numInStock=0,manufacturer=President's Choice]
+item2: Inventory[name=Lime Kool-Aid,numInStock=0,manufacturer=Kraft Foods]
+item3: Inventory[name=Frozen French Fries,numInStock=0,manufacturer=McCain Foods]

@@ -1,0 +1,20 @@
+Ensigns Paul Armstrong reporting to the Captain: 
+
+----------B A T T L E 1 ------------
+Enterprise E(50HP): Captain Jean-Luc Picard(4), Commander William Riker(3), Lt. Commander Data(5), 25
+VS
+Tal(48HP): Commander Tomalak(5), Lt. Commander Sela(3), Ensign Terrh Letanr(4), 26
+Tal(24HP): received 14 damage
+Enterprise E(22HP): received 12 damage
+Tal(0HP): received 14 damage
+Enterprise E(8HP): received 12 damage
+----------W I N N E R 1 ------------
+Enterprise E(8HP): Captain Jean-Luc Picard(4), Commander William Riker(3), Lt. Commander Data(5), 25
+----------B A T T L E 2 ------------
+Enterprise E(8HP): Captain Jean-Luc Picard(4), Commander William Riker(3), Lt. Commander Data(5), 25
+VS
+Unicorn Palace(70HP): Captain Brynn(4), Cheif Engineer Kassidy(6), Commander Benedict(10), 38
+Unicorn Palace(58HP): received 26 damage
+Enterprise E(-44HP): received 6 damage
+----------W I N N E R 2 ------------
+Unicorn Palace(58HP): Captain Brynn(4), Cheif Engineer Kassidy(6), Commander Benedict(10), 38
